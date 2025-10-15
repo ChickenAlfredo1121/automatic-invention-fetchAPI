@@ -24,7 +24,7 @@ fetch('https://chickenalfredo1121.github.io/automatic-invention-fetchAPI/appIdea
     data.appIdeas.forEach(idea => {
         console.log(idea);
         const listItem = document.createElement('li');
-        listItem.textContent = idea;
+        listItem.textContent = `${idea.name}, ${idea.description}`;
         appIdeasList.appendChild(listItem);
     });
 })
