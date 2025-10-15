@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JV App</title>
+</head>
+<body>
+    <h1>Junior web app ideas</h1>
+
+    <ul>
+        <li id="appideas">
+            campus stuff.
+        </li>
+    </ul>
+
+
+<script>
+fetch('https://github.com/ChickenAlfredo1121/automatic-invention-fetchAPI/blob/main/appIdeas.json')
+.then(response => response.json())
+.then(data => {
+    const appIdeasList = document.getElementById('appideas');
+    appIdeasList.innerHTML = ''; // Clear existing content
+    data.forEach(idea => {
+        console.log(idea);
+        const listItem = document.createElement('li');
+        listItem.textContent = idea;
+        appIdeasList.appendChild(listItem);
+    });
+})
+.catch(error => console.error('Error fetching app ideas:', error));
+
+</script>
+</body>
+</html>
