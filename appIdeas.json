@@ -1,4 +1,4 @@
-[
+{ "appIdeas" : [
   {
     "id": 1,
     "name": "Collaborative ToDo Board",
@@ -55,3 +55,4 @@
     "tags": ["finance", "visualization", "personal"]
   }
 ]
+}
