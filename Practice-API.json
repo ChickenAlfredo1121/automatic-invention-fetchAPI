@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Collaborative ToDo Board",
+    "description": "A kanban-style task board where multiple users can create, assign, move, and comment on tasks in real time.",
+    "technologies": ["React", "Node.js/Express", "WebSocket (Socket.IO)", "MongoDB"],
+    "difficulty": "Intermediate",
+    "coreFeatures": ["Drag & drop columns/cards", "Real-time sync", "User mentions", "Activity feed", "Permissions"],
+    "timeEstimateHours": 25,
+    "learningOutcomes": ["Real-time communication", "State management", "CRUD APIs", "Authentication & roles"],
+    "tags": ["collaboration", "productivity", "realtime"]
+  },
+  {
+    "id": 2,
+    "name": "Habit & Streak Tracker",
+    "description": "Track daily habits, visualize streaks, set reminders, and analyze trends with charts.",
+    "technologies": ["Vue or React", "Firebase (Auth + Firestore)", "Charting lib"],
+    "difficulty": "Beginner to Intermediate",
+    "coreFeatures": ["Daily/weekly habits", "Push/Email reminders", "Streak calculation", "Progress charts"],
+    "timeEstimateHours": 18,
+    "learningOutcomes": ["Database modeling", "Notifications", "Data visualization"],
+    "tags": ["productivity", "analytics", "mobile-friendly"]
+  },
+  {
+    "id": 3,
+    "name": "Flashcards with Spaced Repetition",
+    "description": "Create decks of flashcards and use spaced-repetition scheduling to optimize learning.",
+    "technologies": ["Svelte or React", "Node.js", "Postgres", "LocalStorage sync"],
+    "difficulty": "Intermediate",
+    "coreFeatures": ["Create/import decks", "SRS algorithm", "Study statistics", "Media support"],
+    "timeEstimateHours": 30,
+    "learningOutcomes": ["Algorithm implementation", "Import/export formats", "UX for learning apps"],
+    "tags": ["education", "algorithms", "offline-first"]
+  },
+  {
+    "id": 4,
+    "name": "Classroom Course Planner",
+    "description": "Tool for teachers to plan lessons, assign homework, track student progress, and share resources.",
+    "technologies": ["Django or Rails", "Postgres", "React frontend"],
+    "difficulty": "Intermediate",
+    "coreFeatures": ["Syllabus builder", "Assignment scheduling", "Gradebook", "Resource library"],
+    "timeEstimateHours": 40,
+    "learningOutcomes": ["Relational modeling", "Role-based access", "File uploads"],
+    "tags": ["education", "admin", "scheduling"]
+  },
+  {
+    "id": 5,
+    "name": "Personal Budget Tracker",
+    "description": "Track income and expenses, categorize transactions, and visualize spending trends.",
+    "technologies": ["React", "Node.js", "SQLite or Postgres", "D3/Chart.js"],
+    "difficulty": "Beginner",
+    "coreFeatures": ["Transaction CRUD", "Recurring transactions", "Spending categories", "Export CSV"],
+    "timeEstimateHours": 20,
+    "learningOutcomes": ["Data aggregation", "Form validation", "Charts"],
+    "tags": ["finance", "visualization", "personal"]
+  }
+]
