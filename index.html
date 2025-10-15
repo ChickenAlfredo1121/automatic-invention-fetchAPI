@@ -21,7 +21,7 @@ fetch('https://chickenalfredo1121.github.io/automatic-invention-fetchAPI/appIdea
 .then(data => {
     const appIdeasList = document.getElementById('appideas');
     appIdeasList.innerHTML = ''; // Clear existing content
-    data.forEach(idea => {
+    data.appIdeas.forEach(idea => {
         console.log(idea);
         const listItem = document.createElement('li');
         listItem.textContent = idea;
